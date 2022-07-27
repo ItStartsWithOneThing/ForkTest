@@ -4,7 +4,9 @@ using System.Text;
 
 namespace ForkTest.dto
 {
-    class admin
+    public class admin
     {
+        public int age { get; set; }
+        public string name { get; set; }
     }
 }

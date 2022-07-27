@@ -6,7 +6,8 @@ namespace ForkTest.dto
 {
     public class user
     {
-        public string name { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string firstName { get; set; }
         public string secondName { get; set; }
         public int age { get; set; }
     }
