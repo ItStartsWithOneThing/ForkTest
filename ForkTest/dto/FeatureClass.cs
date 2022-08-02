@@ -8,6 +8,7 @@ namespace ForkTest.dto
     {
         public int Age { get; set; }
         public string Name { get; set; }
-        public int MyProperty { get; set; }
+        public string SecondName { get; set; }
+        public DateTime BirthDate { get; set; }
     }
 }
